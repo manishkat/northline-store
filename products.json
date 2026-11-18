@@ -1,0 +1,1032 @@
+{
+ "categories": [
+  {
+   "id": "women",
+   "name": "Women",
+   "image": "https://images.unsplash.com/photo-1618333452884-5c8d211ed2ad?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+   "id": "men",
+   "name": "Men",
+   "image": "https://images.unsplash.com/photo-1619603364937-8d7af41ef206?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+   "id": "shoes",
+   "name": "Shoes",
+   "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+   "id": "bags",
+   "name": "Bags",
+   "image": "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+   "id": "accessories",
+   "name": "Accessories",
+   "image": "https://images.unsplash.com/photo-1612902457652-33aff0a641fa?auto=format&fit=crop&w=1200&q=80"
+  }
+ ],
+ "hero": [
+  {
+   "image": "https://images.unsplash.com/photo-1603189343302-e603f7add05a?auto=format&fit=crop&w=2000&q=80",
+   "title": "New season",
+   "subtitle": "Clean lines. Bold shapes.",
+   "link": "#shop-new",
+   "button": "Shop new in"
+  },
+  {
+   "image": "https://images.unsplash.com/photo-1572251328767-e59f06f13ba1?auto=format&fit=crop&w=2000&q=80",
+   "title": "Women",
+   "subtitle": "Coats, knitwear and dresses",
+   "link": "#shop-women",
+   "button": "Shop women"
+  },
+  {
+   "image": "https://images.unsplash.com/photo-1627637454030-5ddd536e06e5?auto=format&fit=crop&w=2000&q=80",
+   "title": "Men",
+   "subtitle": "Tailoring and outerwear",
+   "link": "#shop-men",
+   "button": "Shop men"
+  },
+  {
+   "image": "https://images.unsplash.com/photo-1593528625646-d705402054ba?auto=format&fit=crop&w=2000&q=80",
+   "title": "Sale",
+   "subtitle": "Up to 30% off selected styles",
+   "link": "#shop-sale",
+   "button": "Shop sale"
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "name": "Wool Blend Long Coat",
+   "category": "women",
+   "subcategory": "Coats & Jackets",
+   "price": 229,
+   "salePrice": null,
+   "colour": "Camel",
+   "colourHex": "#B08463",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [
+    "XS"
+   ],
+   "images": [
+    "https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1618333452884-5c8d211ed2ad?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1618244965061-1d27b208d6e8?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Long coat in a soft wool blend with notched lapels, dropped shoulders and welt pockets. Fully lined.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @theawguide on Unsplash"
+  },
+  {
+   "id": 2,
+   "name": "Belted Trench Coat",
+   "category": "women",
+   "subcategory": "Coats & Jackets",
+   "price": 199,
+   "salePrice": null,
+   "colour": "Stone grey",
+   "colourHex": "#9A968F",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1601762603339-fd61e28b698a?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Classic double-breasted trench with storm flap, belted waist and buttoned cuffs. Water-repellent cotton blend.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @alirezadolati on Unsplash"
+  },
+  {
+   "id": 3,
+   "name": "Oversized Linen Shirt",
+   "category": "women",
+   "subcategory": "Shirts & Blouses",
+   "price": 89,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1627130697816-4d71dbfe6a5b?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Relaxed shirt in 100% linen with a camp collar and dropped shoulders. Pairs with the matching trousers.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @ronmcclenny on Unsplash"
+  },
+  {
+   "id": 4,
+   "name": "Fine Knit Sweater",
+   "category": "women",
+   "subcategory": "Knitwear",
+   "price": 79,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [
+    "XL"
+   ],
+   "images": [
+    "https://images.unsplash.com/photo-1709920694639-81d640bc472f?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1709920680220-8ee257262056?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1709920668708-90df0211e4d0?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Fine-gauge knit with a round neck, long sleeves and ribbed trims. Soft and lightweight.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @soltanimedia on Unsplash"
+  },
+  {
+   "id": 5,
+   "name": "Satin Blouse",
+   "category": "women",
+   "subcategory": "Shirts & Blouses",
+   "price": 69,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1576193929684-06c6c6a8b582?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Fluid satin-finish blouse with a concealed button placket and long cuffed sleeves.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @alipzn on Unsplash"
+  },
+  {
+   "id": 6,
+   "name": "Tailored Blazer",
+   "category": "women",
+   "subcategory": "Coats & Jackets",
+   "price": 149,
+   "salePrice": 119,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1590330297626-d7aff25a0431?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Straight-cut blazer with padded shoulders, lapel collar and flap pockets.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @thevoncomplex on Unsplash"
+  },
+  {
+   "id": 7,
+   "name": "Ribbed Tank Top",
+   "category": "women",
+   "subcategory": "Tops & T-shirts",
+   "price": 29,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1584998299263-ec3c4e0fb6de?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Fitted tank in stretch rib cotton with a scoop neck. An everyday essential.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @thevoncomplex on Unsplash"
+  },
+  {
+   "id": 8,
+   "name": "Off-Shoulder Midi Dress",
+   "category": "women",
+   "subcategory": "Dresses",
+   "price": 119,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Midi dress with an elasticated off-shoulder neckline and a softly flared skirt.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @raaminka on Unsplash"
+  },
+  {
+   "id": 9,
+   "name": "Satin Slip Dress",
+   "category": "women",
+   "subcategory": "Dresses",
+   "price": 109,
+   "salePrice": 79,
+   "colour": "Red",
+   "colourHex": "#A51F24",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [
+    "XS"
+   ],
+   "images": [
+    "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1588824051376-0063738d61e0?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Bias-cut slip dress with adjustable straps and a cowl neckline.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @1rfn on Unsplash"
+  },
+  {
+   "id": 10,
+   "name": "Long Sleeve Knit Dress",
+   "category": "women",
+   "subcategory": "Dresses",
+   "price": 99,
+   "salePrice": null,
+   "colour": "Red",
+   "colourHex": "#A51F24",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Fitted knit dress with a high neck and long sleeves. Midi length.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @suheylburak on Unsplash"
+  },
+  {
+   "id": 11,
+   "name": "Floral Sundress",
+   "category": "women",
+   "subcategory": "Dresses",
+   "price": 89,
+   "salePrice": 69,
+   "colour": "Floral print",
+   "colourHex": "#C9A46A",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1762154057377-cc9d3dd6900c?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Lightweight cotton sundress with thin straps, a fitted bodice and a full skirt.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @sanskrutihomes on Unsplash"
+  },
+  {
+   "id": 12,
+   "name": "Utility Jumpsuit",
+   "category": "women",
+   "subcategory": "Trousers & Jumpsuits",
+   "price": 129,
+   "salePrice": null,
+   "colour": "Ecru",
+   "colourHex": "#E7DFD2",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1495385794356-15371f348c31?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Long-sleeved jumpsuit with a collar, front pockets and a tie belt.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @darko_ar on Unsplash"
+  },
+  {
+   "id": 13,
+   "name": "Rib Maxi Dress",
+   "category": "women",
+   "subcategory": "Dresses",
+   "price": 95,
+   "salePrice": null,
+   "colour": "Brown",
+   "colourHex": "#6E4B34",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1612722432474-b971cdcea546?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Long-sleeved maxi dress in stretch rib knit. Close-fitting silhouette.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @novantino on Unsplash"
+  },
+  {
+   "id": 14,
+   "name": "Poplin Shirt Dress",
+   "category": "women",
+   "subcategory": "Dresses",
+   "price": 109,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Shirt dress in crisp cotton poplin with long sleeves and a button front.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @yasushots on Unsplash"
+  },
+  {
+   "id": 15,
+   "name": "Two-Piece Suit",
+   "category": "men",
+   "subcategory": "Suits & Blazers",
+   "price": 349,
+   "salePrice": null,
+   "colour": "Navy",
+   "colourHex": "#22304A",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Slim-fit suit in a wool blend: single-breasted jacket and flat-front trousers.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @mohamadkhosravi on Unsplash"
+  },
+  {
+   "id": 16,
+   "name": "Black Tailored Suit",
+   "category": "men",
+   "subcategory": "Suits & Blazers",
+   "price": 329,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [
+    "XXL"
+   ],
+   "images": [
+    "https://images.unsplash.com/photo-1618886614638-80e3c103d31a?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1617113930975-f9c7243ae527?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Sharp tailored suit with peak lapels and slim trousers. Made for evenings out.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @mohamadkhosravi on Unsplash"
+  },
+  {
+   "id": 17,
+   "name": "Suede Jacket",
+   "category": "men",
+   "subcategory": "Jackets & Coats",
+   "price": 249,
+   "salePrice": null,
+   "colour": "Tan",
+   "colourHex": "#A8784C",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1776843370483-4f793bc14739?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Trucker jacket in soft suede with chest pockets and button cuffs.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @chungj07 on Unsplash"
+  },
+  {
+   "id": 18,
+   "name": "Essential Crew Tee",
+   "category": "men",
+   "subcategory": "T-shirts",
+   "price": 25,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1622519407650-3df9883f76a5?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Heavyweight cotton tee with a crew neck. Regular fit.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @behrouzsasani on Unsplash"
+  },
+  {
+   "id": 19,
+   "name": "Cotton Overshirt",
+   "category": "men",
+   "subcategory": "Shirts",
+   "price": 139,
+   "salePrice": 109,
+   "colour": "Sand",
+   "colourHex": "#C2A98A",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Overshirt in brushed cotton twill with chest pockets. Wear open as a light jacket.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @mohamadkhosravi on Unsplash"
+  },
+  {
+   "id": 20,
+   "name": "Poplin Shirt",
+   "category": "men",
+   "subcategory": "Shirts",
+   "price": 59,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1618001789159-ffffe6f96ef2?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Slim-fit shirt in cotton poplin with a classic collar.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @mohamadkhosravi on Unsplash"
+  },
+  {
+   "id": 21,
+   "name": "Check Shirt",
+   "category": "men",
+   "subcategory": "Shirts",
+   "price": 55,
+   "salePrice": null,
+   "colour": "Blue check",
+   "colourHex": "#5B78A8",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1626557981101-aae6f84aa6ff?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Relaxed shirt in a lightweight check cotton with a button-down collar.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @mohamadkhosravi on Unsplash"
+  },
+  {
+   "id": 22,
+   "name": "Wool Overcoat",
+   "category": "men",
+   "subcategory": "Jackets & Coats",
+   "price": 259,
+   "salePrice": null,
+   "colour": "Brown",
+   "colourHex": "#6E4B34",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [
+    "S"
+   ],
+   "images": [
+    "https://images.unsplash.com/photo-1619603364937-8d7af41ef206?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1627637454030-5ddd536e06e5?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Single-breasted overcoat in a wool blend with notched lapels.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @chernus_tr on Unsplash"
+  },
+  {
+   "id": 23,
+   "name": "Trench Coat",
+   "category": "men",
+   "subcategory": "Jackets & Coats",
+   "price": 219,
+   "salePrice": null,
+   "colour": "Beige",
+   "colourHex": "#C8B293",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1737508945707-ebdccee97cc5?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Long trench coat with a belted waist and storm flaps. Water-repellent.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @glassesshop_9 on Unsplash"
+  },
+  {
+   "id": 24,
+   "name": "Relaxed Tee",
+   "category": "men",
+   "subcategory": "T-shirts",
+   "price": 25,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1697659840923-0e6c6c862e8f?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Relaxed-fit tee in soft cotton jersey.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @_karsten on Unsplash"
+  },
+  {
+   "id": 25,
+   "name": "Check Suit Blazer",
+   "category": "men",
+   "subcategory": "Suits & Blazers",
+   "price": 199,
+   "salePrice": 149,
+   "colour": "Brown check",
+   "colourHex": "#7A6650",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1772678595035-4ff18bac6d93?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Single-breasted blazer in a textured check with patch pockets.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @jadonjohnson on Unsplash"
+  },
+  {
+   "id": 26,
+   "name": "Canvas Plimsoll",
+   "category": "shoes",
+   "subcategory": "Sneakers",
+   "price": 59,
+   "salePrice": null,
+   "colour": "Burgundy",
+   "colourHex": "#6A1F2B",
+   "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Low-top canvas plimsolls with a rubber sole and cotton laces.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @pl_gt on Unsplash"
+  },
+  {
+   "id": 27,
+   "name": "Perforated Leather Sneaker",
+   "category": "shoes",
+   "subcategory": "Sneakers",
+   "price": 119,
+   "salePrice": null,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+   ],
+   "soldOut": [
+    "36"
+   ],
+   "images": [
+    "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Leather sneakers with perforated side panels and a cushioned insole.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @deepain108 on Unsplash"
+  },
+  {
+   "id": 28,
+   "name": "Two-Tone Leather Sneaker",
+   "category": "shoes",
+   "subcategory": "Sneakers",
+   "price": 129,
+   "salePrice": null,
+   "colour": "White / brown",
+   "colourHex": "#B48A60",
+   "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Low-top leather sneakers with contrast heel tabs and a cupsole.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @fahiminia on Unsplash"
+  },
+  {
+   "id": 29,
+   "name": "Minimal White Sneaker",
+   "category": "shoes",
+   "subcategory": "Sneakers",
+   "price": 99,
+   "salePrice": 79,
+   "colour": "White",
+   "colourHex": "#F2EFEA",
+   "sizes": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1656164753657-8ff832063a71?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Clean, minimal sneakers in smooth leather with tonal laces.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @hamza01nsr on Unsplash"
+  },
+  {
+   "id": 30,
+   "name": "Grey Leather Satchel",
+   "category": "bags",
+   "subcategory": "Shoulder bags",
+   "price": 179,
+   "salePrice": null,
+   "colour": "Grey",
+   "colourHex": "#8E8E8E",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Structured satchel in leather with gold-tone buckles and an adjustable strap.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @mostafa_mahmoudi24 on Unsplash"
+  },
+  {
+   "id": 31,
+   "name": "Black Leather Bag",
+   "category": "bags",
+   "subcategory": "Shoulder bags",
+   "price": 149,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1705909237050-7a7625b47fac?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Minimal shoulder bag in smooth leather with a magnetic closure.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @mobinaghzz on Unsplash"
+  },
+  {
+   "id": 32,
+   "name": "Brown Leather Satchel",
+   "category": "bags",
+   "subcategory": "Shoulder bags",
+   "price": 189,
+   "salePrice": null,
+   "colour": "Brown",
+   "colourHex": "#6E4B34",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Classic leather satchel with a flap, buckles and a top handle.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @alvaroserrano on Unsplash"
+  },
+  {
+   "id": 33,
+   "name": "Tan Shoulder Bag",
+   "category": "bags",
+   "subcategory": "Shoulder bags",
+   "price": 159,
+   "salePrice": null,
+   "colour": "Tan",
+   "colourHex": "#A8784C",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1691480150204-66dd1eb77391?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1691480250099-a63081ecfcb8?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Soft leather shoulder bag with a zip top and an inner pocket.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @personal_graphic on Unsplash"
+  },
+  {
+   "id": 34,
+   "name": "Pink Mini Bag",
+   "category": "bags",
+   "subcategory": "Mini bags",
+   "price": 129,
+   "salePrice": 99,
+   "colour": "Pink",
+   "colourHex": "#E4A9B3",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1681747685985-a401c271156c?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Mini top-handle bag with a detachable crossbody strap.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @pixelldesign on Unsplash"
+  },
+  {
+   "id": 35,
+   "name": "Leather Sling Bag",
+   "category": "bags",
+   "subcategory": "Crossbody",
+   "price": 89,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1603219527847-24c87f552a77?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Compact sling bag in leather with an adjustable strap.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @sadkov26 on Unsplash"
+  },
+  {
+   "id": 36,
+   "name": "Black Frame Sunglasses",
+   "category": "accessories",
+   "subcategory": "Sunglasses",
+   "price": 49,
+   "salePrice": null,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1612902457652-33aff0a641fa?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Square acetate sunglasses with UV400 lenses. Includes a case.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @farahgsamy on Unsplash"
+  },
+  {
+   "id": 37,
+   "name": "Wool Fedora Hat",
+   "category": "accessories",
+   "subcategory": "Hats",
+   "price": 69,
+   "salePrice": null,
+   "colour": "Grey / brown",
+   "colourHex": "#8C7B68",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1572307480813-ceb0e59d8325?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Wool felt fedora with a grosgrain band.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @laviebohemo on Unsplash"
+  },
+  {
+   "id": 38,
+   "name": "Envelope Clutch",
+   "category": "accessories",
+   "subcategory": "Small leather goods",
+   "price": 79,
+   "salePrice": 59,
+   "colour": "Black",
+   "colourHex": "#1B1B1B",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1551106569-0411ddab8be9?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Envelope clutch in leather with a fold-over flap.",
+   "isNew": false,
+   "hidden": false,
+   "credit": "Photo: @aigdy on Unsplash"
+  },
+  {
+   "id": 39,
+   "name": "Pearl Drop Earrings",
+   "category": "accessories",
+   "subcategory": "Jewellery",
+   "price": 39,
+   "salePrice": null,
+   "colour": "Pearl / gold",
+   "colourHex": "#E9E1CF",
+   "sizes": [
+    "One size"
+   ],
+   "soldOut": [],
+   "images": [
+    "https://images.unsplash.com/photo-1762331235380-ddb7f5df2fba?auto=format&fit=crop&w=900&q=80"
+   ],
+   "description": "Gold-tone drop earrings with faux pearls.",
+   "isNew": true,
+   "hidden": false,
+   "credit": "Photo: @zulfugarkarimov on Unsplash"
+  }
+ ]
+}

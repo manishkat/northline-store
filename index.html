@@ -3,64 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Northline — Considered everyday clothing</title>
-<meta name="description" content="Northline makes breathable everyday clothing from natural fibres. Designed in Darwin, Australia. Free shipping over $150.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231C1B19'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' fill='%23F4F1EC' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<title>NORTHLINE — Women, Men, Shoes &amp; Bags</title>
+<meta name="description" content="Shop new-season womenswear, menswear, shoes, bags and accessories. Free delivery over $150 across Australia.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='16' fill='%23fff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="demo" id="demo" hidden>TEST MODE — payments are simulated, no real money is taken.</div>
-<div class="ann">Free shipping across Australia on orders over $150 · Free 30-day returns</div>
-<header class="nav">
-  <div class="navrow">
-    <div class="navl">
-      <button class="iconbtn" aria-label="Menu" onclick="drawer(true)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
-      <a class="link" href="#shop" data-nav="shop">Shop</a>
-      <a class="link" href="#shop-new" data-nav="shop-new">New in</a>
-      <a class="link" href="#shop-women" data-nav="shop-women">Women</a>
-      <a class="link" href="#shop-men" data-nav="shop-men">Men</a>
-      <a class="link" href="#about" data-nav="about">About</a>
-    </div>
-    <a class="logo" href="#home">NORTHLINE</a>
-    <div class="navr">
-      <a class="link txt" href="#shop">Search</a>
-      <a class="link txt" href="#about">Account</a>
-      <a class="link" href="#bag" aria-label="Bag" style="display:inline-flex;align-items:center"><svg class="iconbag" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bagcount" id="bagcount">0</span></a>
-    </div>
+<header class="hdr" id="hdr">
+  <div class="hl">
+    <button class="ib" aria-label="Menu" onclick="UI.menu(true)"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    <nav class="topcats" id="topcats"></nav>
+  </div>
+  <a class="logo" href="#home">NORTHLINE</a>
+  <div class="hr">
+    <button class="searchbtn" onclick="UI.search(true)"><span>Search</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button>
+    <a class="ib" href="#wishlist" aria-label="Wishlist"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span class="cnt" id="wishcount"></span></a>
+    <button class="ib" aria-label="Bag" onclick="UI.bag(true)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cnt" id="bagcount"></span></button>
   </div>
 </header>
 
-<div class="drawer" id="drawer">
-  <div class="scrim" onclick="drawer(false)"></div>
-  <div class="panel">
-    <div class="top"><span class="logo" style="font-size:22px">NORTHLINE</span><button aria-label="Close" onclick="drawer(false)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <nav style="padding:20px 0;border-bottom:1px solid var(--line)">
-      <a href="#shop">Shop all <span>→</span></a><a href="#shop-new">New in <span>→</span></a><a href="#shop-women">Women <span>→</span></a><a href="#shop-men">Men <span>→</span></a><a href="#about">Our story <span>→</span></a><a href="#bag">Your bag <span>→</span></a>
-    </nav>
-    <div class="small" style="padding-top:16px"><a href="#about">Account</a><a href="#help">Help &amp; contact</a><a href="#privacy">Privacy</a></div>
-    <p class="muted" style="margin-top:auto;font-size:13px">Free shipping on orders over $150</p>
-  </div>
+<!-- side menu -->
+<div class="layer" id="menu"><div class="scrim" onclick="UI.menu(false)"></div>
+  <aside class="side left">
+    <div class="sidetop"><span class="logo sm">NORTHLINE</span><button class="ib" onclick="UI.menu(false)" aria-label="Close"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="menulinks" id="menulinks"></nav>
+    <div class="menusmall"><a href="#wishlist">Wishlist</a><a href="#bag">Shopping bag</a><a href="#help">Help &amp; contact</a><a href="#help">Shipping &amp; returns</a><a href="admin.html">Store owner login</a></div>
+  </aside>
 </div>
 
-<main id="app"></main>
+<!-- bag drawer -->
+<div class="layer" id="bagdrawer"><div class="scrim" onclick="UI.bag(false)"></div>
+  <aside class="side right"><div class="sidetop"><b>SHOPPING BAG (<span id="bagn">0</span>)</b><button class="ib" onclick="UI.bag(false)" aria-label="Close"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div id="bagbody" class="bagbody"></div></aside>
+</div>
 
-<footer>
-  <div class="ft">
-    <div style="max-width:320px"><div class="logo" style="margin-bottom:14px">NORTHLINE</div><p style="color:#9E968A;font-size:14px;line-height:1.6">Considered everyday clothing, made in small runs from natural fibres. Designed in Darwin, worn everywhere.</p></div>
-    <div class="cols">
-      <div><h4>Shop</h4><a href="#shop-women">Women</a><a href="#shop-men">Men</a><a href="#shop-essentials">Essentials</a><a href="#shop">Gift cards</a></div>
-      <div><h4>Help</h4><a href="#help">Shipping</a><a href="#help">Returns &amp; exchanges</a><a href="#help">Size guide</a><a href="#help">Contact us</a></div>
-      <div><h4>Company</h4><a href="#about">Our story</a><a href="#privacy">Privacy policy</a><a href="#terms">Terms of sale</a></div>
-    </div>
+<!-- search -->
+<div class="searchlayer" id="searchlayer">
+  <div class="searchtop"><input id="q" type="search" placeholder="SEARCH FOR AN ITEM, COLOUR, CATEGORY…" autocomplete="off" aria-label="Search"><button class="ib" onclick="UI.search(false)" aria-label="Close search"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="searchsugg" id="searchsugg"></div>
+  <div class="grid g4 searchres" id="searchres"></div>
+</div>
+
+<main id="app"><div class="loading">Loading…</div></main>
+
+<footer class="ftr">
+  <div class="fcols">
+    <div><h4>Help</h4><a href="#help">Contact us</a><a href="#help">Shipping</a><a href="#help">Returns &amp; refunds</a><a href="#help">Size guide</a></div>
+    <div><h4>Shop</h4><a href="#shop-women">Women</a><a href="#shop-men">Men</a><a href="#shop-shoes">Shoes</a><a href="#shop-bags">Bags</a><a href="#shop-sale">Sale</a></div>
+    <div><h4>Company</h4><a href="#about">About us</a><a href="#privacy">Privacy policy</a><a href="#terms">Terms of sale</a><a href="#credits">Photo credits</a></div>
+    <div class="fnews"><h4>Newsletter</h4><p>New arrivals, restocks and 10% off your first order.</p><form id="newsform"><input type="email" required placeholder="Email address" aria-label="Email address"><button>Join</button></form></div>
   </div>
-  <div class="bot"><span>© 2026 Northline Clothing Co. All rights reserved.<span id="abn"></span></span><span>Instagram · Pinterest · TikTok</span></div>
+  <div class="fbot"><span>© 2026 NORTHLINE<span id="abn"></span> · Darwin, Australia</span><span>Visa · Mastercard · Amex · PayPal</span></div>
 </footer>
 
 <div class="toast" id="toast"></div>
-<div class="modal" id="modal" onclick="if(event.target===this)closeModal()"><div class="box"><div class="h3" id="mtitle"></div><p class="muted" id="mtext"></p><button class="btn dark" onclick="closeModal()">Close</button></div></div>
+<div class="modal" id="modal"><div class="box"><button class="ib x" onclick="UI.closeModal()" aria-label="Close"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="modalbody"></div></div></div>
 
 <script src="config.js"></script>
 <script src="app.js"></script>
